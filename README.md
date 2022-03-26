@@ -1,5 +1,5 @@
 Antes de executar o projeto é necessario realizar as configurações de login e senha e também inserir a secret que será usada para gerar o token JWT.
-Para isso basta atualizar o arquivo appsettings.Development.json na raiz do projeto adicionando as informações conforme ilustrado nos campos abaixo.
+Para isso basta atualizar o arquivo appsettings.Development.json na pasta ...\src\WebApi do projeto. Basta adicionar as informações conforme ilustrado nos campos abaixo.
 
  ```
 {
