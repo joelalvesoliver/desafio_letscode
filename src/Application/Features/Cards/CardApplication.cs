@@ -22,7 +22,6 @@ namespace Lets.Code.Application.Features.Cards
 
             var cardModel = new CardModel
             {
-                Id = card.Id,
                 Content = card.Content,
                 List = card.List,
                 Title = card.Title

@@ -10,12 +10,10 @@ namespace Lets.Code.Application.Shared.Repository
     public class CardRepository : ICardRepository
     {
         private readonly CardContext _cardContext;
-        private IServiceProvider _serviceProvider;
 
-        public CardRepository(CardContext cardContext, IServiceProvider serviceProvider)
+        public CardRepository(CardContext cardContext)
         {
             _cardContext = cardContext;
-            _serviceProvider = serviceProvider;
         }
         public CardModel AddCard(CardModel card)
         {
