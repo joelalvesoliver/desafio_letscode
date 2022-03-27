@@ -9,8 +9,11 @@ Para isso basta atualizar o arquivo appsettings.Development.json na pasta ...\sr
  }
 ```
 
+Para executar a aplicação basta rodar o projeto Lets.Code.WebApi como projeto de inicialização.
+
 A aplicação disponibiliza uma rota de login e rotas para inserir, atualizar e deletar cards, alem de uma rota para recuperar todos os cards criados.
-Para chamada de cada rota basta seguir os curls como indicados a seguir.
+Para chamada de cada rota basta seguir os curls como indicados a seguir, ou então usar o swagger acessando a url https://localhost:5000/swagger/index.html no navegador.
+No swagger existe o campo de autenticação para inserir o JWT token e liberar as rotas que solicitam autenticação.
 
 ## Login
 ```
